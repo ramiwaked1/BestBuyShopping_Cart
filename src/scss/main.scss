@@ -178,7 +178,7 @@ banner p {
 }
 
 .carousel-cell p:nth-child(2) {
-	height: 10vh;
+	height: 5vh;
 	font-size: 1.25rem;
 	opacity: 0.5;
 	padding: 1rem 0 1rem 0;
@@ -218,8 +218,8 @@ banner p {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 32%;
-    padding-bottom: 28%; /* Location of the box */
+    padding-top: 15%; /* Location of the box */
+    height: 100%;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
