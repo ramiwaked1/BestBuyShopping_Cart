@@ -14247,8 +14247,9 @@ var Carousel = exports.Carousel = function () {
 			var flkty = new _flickity2.default('.carousel', {
 				// options
 				cellAlign: 'left',
-				contain: true,
-				groupCells: 2
+				imagesLoaded: true,
+				wrapAround: true,
+				groupCells: false
 			});
 
 			// remove any previously inserted carousel cells to
