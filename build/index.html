@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Best Buy</title>
+		<link type="text/css" rel="stylesheet" href="./css/build.css" />
+    </head>
+    <body>
+		<!-- shopping cart -->
+		<header class="flex flex-column">
+			<div class="flex flex-justify-end">
+				<div class="flex flex-justify-end shopping-cart">
+					<h4 id="itemCount" class="item-count-circle">0</h4>
+				</div>
+			</div>
+		</header>
+		<!-- banner -->
+		<banner class="flex flex-column">
+			<div class="flex flex-column">
+				<h1>WELCOME TO BESTBUY STORE</h1>
+				<p>SHOP HERE, FOR SOME REASON</p>
+				<div>
+					<button type="button" class="shop-button">SHOP NOW</button>
+				</div>
+			</div>
+		</banner>
+		<!-- about company -->
+		<section class="flex flex-column flex-justify-center about-company">
+			<div class="flex flex-justify-center">
+				<h1>WE SELL THE SAME STUFF AS BESTBUY, BUT WE'RE <span>BETTER</span></h1>
+			</div>
+				<div class="flex flex-justify-center">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+		</section>
+		<!-- shopping cart modal window -->
+		<section>
+			<div id="myModal" class="modal">
+			  	<div class="modal-content">
+			    	<div class="modal-header">
+			      		<span class="close">&times;</span>
+			      		<h1>YOUR CART</h1>
+			    	</div>
+				    <div class="modal-body">
+				    	<div class="modal-items">
+				    	</div>
+				    	<!-- stripe payment -->
+					    <div class="stripe flex flex-items-center">
+					    </div>
+				  	</div>
+				</div>
+			</div>
+		</section>
+		<!-- navigation menu (product categories) -->
+        <section>
+        	<div class="nav-menu flex flex-justify-center">
+        		<div>
+        			<p class="nav-item">LAPTOPS</p>
+        		</div>
+        		<div>
+        			<p class="nav-item">CAMERAS</p>
+        		</div>
+        		<div>
+        			<p class="nav-item">TELEVISIONS</p>
+        		</div>
+        		<div>
+        			<p class="nav-item">DESKTOPS</p>
+        		</div>
+        	</div>
+        </section>
+        <!-- products -->
+        <section class="products">
+	        <div class="carousel">
+	        </div>
+        </section>
+        <!-- email signup -->
+		<footer class="flex flex-justify-around flex-items-center flex-column">
+			<h1>SIGN UP FOR UPDATES</h1>
+			<p>WE WILL NOT STOP EMAILING YOU</p>
+			<div class ="flex flex-justify-end email-signup">
+				<input id="email" type="text" name="email-address" placeholder="Enter your email">
+				<button type="button">SIGN UP</button>
+			</div>
+		</footer>
+		<!-- JavaScript -->
+        <script src="./js/bundle.js"></script>
+    </body>
+</html>
