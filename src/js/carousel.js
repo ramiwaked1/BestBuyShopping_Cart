@@ -32,8 +32,9 @@ export class Carousel {
 		let flkty = new Flickity( '.carousel', {
 		  // options
 		  cellAlign: 'left',
-		  contain: true,
-		  groupCells: 2
+			imagesLoaded: true,
+      wrapAround: true,
+		  groupCells: false,
 		});
 
 		// remove any previously inserted carousel cells to
