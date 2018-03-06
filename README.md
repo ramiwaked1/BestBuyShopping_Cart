@@ -1,4 +1,6 @@
 # Project 3: BestBuy Shopping Cart
+![alt text](https://github.com/ramiwaked1/BestBuyShoppingCart/blob/master/build/images/home.jpg)
+![alt text](https://github.com/ramiwaked1/BestBuyShoppingCart/blob/master/build/images/quickview.jpg)
 
 My project was to create a functional shopping cart using The BestBuy Store API to get the products live on a page using jQuery, HTML, CSS, Sass and Gulp.
 
